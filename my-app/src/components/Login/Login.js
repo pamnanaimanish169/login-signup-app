@@ -3,6 +3,7 @@ import './Login.css';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { FormErrors } from '../../FormErrors';
+import { Link } from 'react-router-dom';
 
 class Login extends React.Component {
     constructor(props) {
@@ -96,7 +97,10 @@ class Login extends React.Component {
 
                     </Form.Group>
 
-                    <Button variant="primary" disabled={!this.state.formValid}>Sign Up</Button>
+                    <Button variant="primary" disabled={!this.state.formValid}>Login</Button>
+
+                    <br />
+                    <Link to='/register'>New User?</Link>
                 </Form>
             </div>
         )
