@@ -1,0 +1,13 @@
+.upload-border  {
+    border-bottom: grey solid 1px !important;
+    height: 40px;
+}
+
+.upload-border  >   button  {
+    float: right;
+}
+
+.upload-border  >   button  >   a   {
+    color: white;
+    text-decoration: none;
+}

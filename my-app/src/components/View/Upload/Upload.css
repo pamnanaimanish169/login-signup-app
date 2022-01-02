@@ -1,0 +1,11 @@
+.upload-file   {
+    width: 50%;
+    margin: 0   auto;
+
+    /* vertically center START*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    /* vertically center END */
+} 
